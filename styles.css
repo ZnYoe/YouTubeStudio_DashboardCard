@@ -31,7 +31,7 @@ body{
 
 .title{
     font-size:17px ;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
     font-weight: 500;
 }
 
@@ -49,9 +49,9 @@ body{
     margin-bottom: -5px;
 }
 
-.performance{
+.opText{
     font-size: 12px;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .statContainer{
@@ -74,6 +74,98 @@ body{
 }
 
 .link a{
-    color: rgb(0, 100, 182);
+    color: #0064b6;
     text-decoration: none;
 }
+
+.newsTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size:17px ;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.arrow{
+    font-weight:300;
+}
+
+.newsImgBox{
+    width: 270px;
+    margin: auto;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.newsImg{
+    width: 100%;
+}
+
+.BoxTitle{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Roboto";
+    margin-bottom: 8px;
+}
+
+.sumy{
+    margin-bottom: 5px;
+}
+
+/* .CR_content{
+    font-size: 13px;
+    opacity: 0.7;
+    margin-bottom: 17px;
+} */
+
+.currentSubcr{
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.subcrNum{
+    font-size: 28px;
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.plusNum{
+    color: #00c200;
+    font-size: 14px;
+}
+
+.plusDate{
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.spanBox{
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+.secondFloor{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 13px;
+}
+
+.amountContainer{
+    margin-top: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Amount{
+    margin-right: 3px;
+}
+
+.Percent{
+    color: #00c200;
+}
+
+
+
